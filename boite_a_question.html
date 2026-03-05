@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boîte à Questions</title>
+    <link rel="stylesheet" href="boite_a_question.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Pose-moi une question</h2>
+        <form class="formulaire">
+            <label for="nom">Nom:</label>
+            <input type="text" placeholder="ex: John Doe" required id="nom">
+            <label for="email">Email:</label>
+            <input type="email" placeholder="example@gmail.com" required>
+            <label for="select">Matière:</label>
+            <select name="matiere" id="select">
+                <option value="">Aucun</option>
+                <option value="">Algèbre</option>
+                <option value="">Analyse</option>
+                <option value="">Probabilités</option>
+            </select>
+            <textarea name="problem" id="" placeholder="Ta question"></textarea>
+            <button type="submit">Envoyer mon problème </button>
+        </form>
+    </div>
+</body>
+</html>

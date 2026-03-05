@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+}
+.container{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(49, 130, 235);
+    padding: 50px;
+    border-radius: 20px;
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input, select{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(71, 68, 68);
+    border-radius: 20px;
+}
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border: 2px solid rgb(241, 241, 62);
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+button{
+     margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(241, 241, 62);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color:white;
+    color: black ;
+}
+textarea{
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    
+}
+h2, label{
+    color: whitesmoke;
+}
